@@ -1,0 +1,40 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_web_view (0.0.1):
+    - Flutter
+  - flutter_webview_plugin (0.0.1):
+    - Flutter
+  - path_provider (0.0.1):
+    - Flutter
+  - shared_preferences (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Pods/.symlinks/flutter/ios`)
+  - flutter_web_view (from `Pods/.symlinks/plugins/flutter_web_view/ios`)
+  - flutter_webview_plugin (from `Pods/.symlinks/plugins/flutter_webview_plugin/ios`)
+  - path_provider (from `Pods/.symlinks/plugins/path_provider/ios`)
+  - shared_preferences (from `Pods/.symlinks/plugins/shared_preferences/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Pods/.symlinks/flutter/ios
+  flutter_web_view:
+    :path: Pods/.symlinks/plugins/flutter_web_view/ios
+  flutter_webview_plugin:
+    :path: Pods/.symlinks/plugins/flutter_webview_plugin/ios
+  path_provider:
+    :path: Pods/.symlinks/plugins/path_provider/ios
+  shared_preferences:
+    :path: Pods/.symlinks/plugins/shared_preferences/ios
+
+SPEC CHECKSUMS:
+  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+  flutter_web_view: 6172ec2a6b4c7a33d840300a74354b913416782e
+  flutter_webview_plugin: 116575b48572029304775b768e9f15ebfc316274
+  path_provider: 09407919825bfe3c2deae39453b7a5b44f467873
+  shared_preferences: 5a1d487c427ee18fcd3ea1f2a131569481834b53
+
+PODFILE CHECKSUM: 13dcf421f4da2e937a57e8ba760ed880beae536f
+
+COCOAPODS: 1.4.0
