@@ -226,6 +226,7 @@ class _DrawerPageState extends State<DrawerPage> {
           )))
     ];
 
+    ///这里直接使用Drawer+ListView
     return new Drawer(
         child: new Column(
       children: allDrawerItems,

@@ -23,7 +23,7 @@ Flutter版 [玩Android \- wanandroid\.com \- 每日推荐优质文章](http://ww
 
 
 # 不足之处
-1. `TabBar+TabBarView`布局（最后一张图片的布局）点击Tab快速跳转界面会出现bug，关于此问题官方还为解决 [Use TabBarView with AutomaticKeepAliveClientMixin and with 4 or more pages will cause error · Issue \#16502 · flutter/flutter](https://github.com/flutter/flutter/issues/16502)；
+1. ~~`TabBar+TabBarView`布局（最后一张图片的布局）点击Tab快速跳转界面会出现bug，关于此问题官方还为解决[Use TabBarView with AutomaticKeepAliveClientMixin and with 4 or more pages will cause error · Issue \#16502 · flutter/flutter](https://github.com/flutter/flutter/issues/16502)；~~（已解决该问题，可查看代码了解解决方案）
 
 2. WebView控件支持不是太好，[Inline Android and iOS WebView · Issue \#730 · flutter/flutter](https://github.com/flutter/flutter/issues/730)；
 
