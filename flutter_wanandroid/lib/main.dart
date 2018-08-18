@@ -1,16 +1,18 @@
 import 'package:flutter_wanandroid/common/config.dart';
 import 'package:flutter_wanandroid/home/main_screen.dart';
 import 'package:stack_trace/stack_trace.dart';
-import 'package:flutter_wanandroid/home/navi_page.dart';
 
 void main() {
 
-  Chain.capture(() {
-    runApp(new MyApp());
-  }, onError: (final error, final Chain chain) {
-    print("Caught error $error\n"
-        "${chain.terse}");
-  });
+//  https://pub.flutter-io.cn/packages/stack_trace
+//  这里使用是这个开源库，可以处理StackTrack(堆栈跟踪)信息，但是直接这样使用好像是没有效果的
+//  Chain.capture(() {
+//    runApp(new MyApp());
+//  }, onError: (final error, final Chain chain) {
+//    print("Caught error $error\n"
+//        "${chain.terse}");
+//  });
+  runApp(new MyApp());
 }
 
 class MyApp extends StatelessWidget {

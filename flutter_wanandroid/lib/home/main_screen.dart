@@ -93,6 +93,8 @@ class _MainScreenState extends State<MainScreen>{
   @override
   void initState() {
     super.initState();
+    ///TODO Dart项目中的StackTrance和Flutter中的不一样，所以需要不同分析
+    Log.d(StackTrace.current, 'Log initState');
   }
 
   Widget _buildNavigationBar(BuildContext context) {
